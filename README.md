@@ -8,7 +8,7 @@ The general syntax of the open() function is the following:
 
 <code>&nbsp;&nbsp;&nbsp;int open(const char *path, int flags, mode_t mode);</code>
 
-But let's define the parameters that the function takes as input:
+So, let's define the parameters that the function takes as input:
 
 - <code>path:</code> it is a string that represents the path of the file to open or create.
 - <code>flags:</code> specify how the file should be opened. These flags, are constants defined in the fcntl.h library and can include O_RDONLY (open read only), O_WRONLY (open write only), O_RDWR (open read and write), O_CREAT (create the file if it does not exist), O_TRUNC (truncate the file if it already exists) and others.
