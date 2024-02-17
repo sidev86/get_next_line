@@ -3,10 +3,9 @@ Our function will receive the identification number of our file to read (the fil
 <h1 align="left">The <code>read()</code> function</h1>
 
 The read() function in C is used to read data from an open file or file descriptor. 
-
 Here is the general syntax of the read() function:
 
-size_t read(int fd, void *buf, size_t count);
+<code>&nbsp;&nbsp;&nbsp;size_t read(int fd, void *buf, size_t count);</code>
 
 Lets take a look at the parameters that the function takes as input:
 
