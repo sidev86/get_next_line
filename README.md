@@ -17,6 +17,7 @@ The read() function returns the number of bytes read if successful, otherwise it
 
 <h1 align="left">The buffering concept</h1>
 
+- Buffering is a principle where a sort of 'block' reading is performed, i.e. we will acquire a larger or smaller portion of data depending on the size of our buffer (the temporary memory where we store our 'blocks' of data).
 - The numerical value of the buffer, i.e. our BUFFER_SIZE, will be passed as a parameter to our read function and will represent the number of bytes of text to read.
 - The number of bytes corresponds to the number of characters that will be read. Given that, exactly 1 byte is needed to represent a character in our computer's memory. So if for example we wanted to read 10 characters at a time to read the line, we would set the BUFFER_SIZE to 10.
  
