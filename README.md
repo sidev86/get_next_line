@@ -4,7 +4,7 @@ To be able to read a line of text from a file, we must first make sure that the 
 <h1 align="left">The <code>open</code> function</h1>
 
 - The open function is a function that is used to open or create a new file (in case the file doesn't exist).
-The general sintax of the open() function is the following:
+The general syntax of the open() function is the following:
 
 <code>&nbsp;&nbsp;&nbsp;int open(const char *path, int flags, mode_t mode);</code>
 
