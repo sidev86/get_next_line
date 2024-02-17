@@ -10,6 +10,6 @@ The general sintax of the open() function is the following:
 
 But let's define the parameters that the function takes as input:
 
-- path: it is a string that represents the path of the file to open or create.
-- flags: specify how the file should be opened. These flags, are constants defined in the fcntl.h library and can include O_RDONLY (open read only), O_WRONLY (open write only), O_RDWR (open read and write), O_CREAT (create the file if it does not exist), O_TRUNC (truncate the file if it already exists) and others.
-- mode: is an optional argument that is used only when the O_CREAT flag is specified. It specifies file access permissions for the case in which the file is to be created. These permissions are represented as constants in the sys/stat.h library
+- <code>path:</code> it is a string that represents the path of the file to open or create.
+- <code>flags:</code> specify how the file should be opened. These flags, are constants defined in the fcntl.h library and can include O_RDONLY (open read only), O_WRONLY (open write only), O_RDWR (open read and write), O_CREAT (create the file if it does not exist), O_TRUNC (truncate the file if it already exists) and others.
+- <code>mode:</code> is an optional argument that is used only when the O_CREAT flag is specified. It specifies file access permissions for the case in which the file is to be created. These permissions are represented as constants in the sys/stat.h library
