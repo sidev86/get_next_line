@@ -21,10 +21,10 @@ To test the gnl function directly you can use one of the 2 versions of main pres
 
 <h2>Compilation Instructions</h2>
 <code> gcc -Wall -Wextra -Werror -D BUFFER_SIZE=n <all_files>.c -o executable_name</code>
-<br>
+<br><br>
 Replace <code>n</code> with your desired buffer size.
-
+<br>
 And then execute:
-
+<br>
 <code>./executable_name "filename"</code>
 
