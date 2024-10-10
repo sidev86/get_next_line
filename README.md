@@ -23,8 +23,8 @@ To test the gnl function directly you can use one of the 2 versions of main pres
 <code> gcc -Wall -Wextra -Werror -D BUFFER_SIZE=n <all_files>.c -o executable_name</code>
 <br><br>
 Replace <code>n</code> with your desired buffer size.
-<br>
+<br><br>
 And then execute:
-<br>
+<br><br>
 <code>./executable_name "filename"</code>
 
