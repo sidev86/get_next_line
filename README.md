@@ -4,6 +4,7 @@
 
 The Get Next Line project introduces a convenient function for reading lines from a file descriptor (fd) in C programming. This project aims to enhance your understanding of static variables while providing a practical utility for file reading operations.
 
+<br>
 <h2>Features</h2>
 
 <ul>
@@ -13,6 +14,7 @@ The Get Next Line project introduces a convenient function for reading lines fro
   <li>Include the terminating newline character (\n) in the returned line, except at the end of the file.</li>
 </ul>
 
+<br>
 <h2>Usage</h2>
 
 To test the gnl function directly you can use one of the 2 versions of main present in the code. Just uncomment one of the 2 main versions to test.
@@ -24,5 +26,5 @@ Replace <code>n</code> with your desired buffer size.
 
 And then execute:
 
-<code>./executable_name <filename></code>
+<code>./executable_name "filename"</code>
 
