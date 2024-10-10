@@ -25,5 +25,5 @@ Replace <code>n</code> with your desired buffer size.
 <br><br>
 And then execute:
 <br><br>
-<code>./executable_name "filename_to_read"</code>
+<code>./executable_name "file_to_read"</code>
 
