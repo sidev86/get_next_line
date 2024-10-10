@@ -21,7 +21,7 @@ If you want to read just one line of the file you simply call the function once.
 Here I give you the two versions of main functions that you can use:
 
 <h3>Version 1 (read one line)</h3>
-<code>
+```
   int main(int argc, char **argv) 
   {
     int fd = open("filename.txt", O_RDONLY);
@@ -39,7 +39,7 @@ Here I give you the two versions of main functions that you can use:
     close(fd);
     return 0;
 }
-</code>
+```
 
 
 <h3>Version 2 (read all the file)</h3>
