@@ -92,7 +92,12 @@ char	*get_next_line(int fd)
 // 'VERSION 1' MAIN TEST (READ 1 LINE OF THE FILE)
   /*int main(int argc, char **argv) 
   {
-    int fd = open("filename.txt", O_RDONLY);
+    if (argc != 2) 
+    {
+        printf("Usage: %s <filename>\n", argv[0]);
+        return 1;
+    }
+    int fd = open(argv[1], O_RDONLY);
     if (fd < 0) 
     {
         perror("Error opening file");
@@ -113,7 +118,12 @@ char	*get_next_line(int fd)
 // 'VERSION 2' MAIN TEST (READ ALL THE LINES IN THE FILE)
   /*int main(int argc, char **argv) 
   {
-    int fd = open("filename.txt", O_RDONLY);
+    if (argc != 2) 
+    {
+        printf("Usage: %s <filename>\n", argv[0]);
+        return 1;
+    }
+    int fd = open(argv[1], O_RDONLY);
     if (fd < 0) 
     {
         perror("Error opening file");
