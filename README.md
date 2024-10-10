@@ -19,7 +19,7 @@ The get_next_line project introduces a convenient function for reading lines fro
 To test the gnl function directly you can use one of the 2 versions of main present in the code. Just uncomment one of the 2 main versions to test.
 
 <h2>Compilation Instructions</h2>
-<code> gcc -Wall -Wextra -Werror -D BUFFER_SIZE=n <all_files>.c -o executable_name</code>
+<code> gcc -Wall -Wextra -Werror -D BUFFER_SIZE=n get_next_line.c get_next_line_utils.c -o executable_name</code>
 <br><br>
 Replace <code>n</code> with your desired buffer size.
 <br><br>
