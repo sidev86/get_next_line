@@ -15,50 +15,14 @@ The Get Next Line project introduces a convenient function for reading lines fro
 
 <h2>Usage</h2>
 
-To test the gnl function you must create a main function where you open a file to read and then pass the file descriptor to the 'get_next_line' function.
-If you want to read just one line of the file you simply call the function once. If u want to read the entire file you can put the call to the function inside a while loop that ends when there's nothing left to read.
+To test the gnl function directly you can use one of the 2 versions of main present in the code. Just uncomment one of the 2 main versions to test.
 
-Here I give you the two versions of main functions that you can use:
+<h2>Compilation Instructions</h2>
+<code> gcc -Wall -Wextra -Werror -D BUFFER_SIZE=n <all_files>.c -o executable_name</code>
 
-<h3>Version 1 (read one line)</h3>
-```
-  int main(int argc, char **argv) 
-  {
-    int fd = open("filename.txt", O_RDONLY);
-    if (fd < 0) 
-    {
-        perror("Error opening file");
-        return 1;
-    }
-    char *line = get_next_line(fd);
-    if (line != NULL) 
-    {
-        printf("%s", line);
-        free(line);
-    }
-    close(fd);
-    return 0;
-}
-```
+Replace <code>n</code> with your desired buffer size.
 
+And then execute:
 
-<h3>Version 2 (read all the file)</h3>
-<code>
-  int main(int argc, char **argv) 
-  {
-    int fd = open("filename.txt", O_RDONLY);
-    if (fd < 0) 
-    {
-        perror("Error opening file");
-        return 1;
-    }
-    char *line;
-    while ((line = get_next_line(fd)) != NULL) 
-    {
-        printf("%s", line);
-        free(line);
-    }
-    close(fd);
-    return 0;
-}
-</code>
+<code>./executable_name <filename></code>
+
