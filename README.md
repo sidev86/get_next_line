@@ -2,7 +2,7 @@
 
 <h2>Description</h2>
 
-The Get Next Line project introduces a convenient function for reading lines from a file descriptor (fd) in C programming. This project aims to enhance your understanding of static variables while providing a practical utility for file reading operations.
+The get_next_line project introduces a convenient function for reading lines from a file descriptor (fd) in C programming. This project aims to enhance your understanding of static variables while providing a practical utility for file reading operations.
 
 <br>
 <h2>Features</h2>
