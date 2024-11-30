@@ -13,7 +13,7 @@ The get_next_line project introduces a convenient function for reading lines fro
   <li>Include the terminating newline character (\n) in the returned line, except at the end of the file.</li>
 </ul>
 
-<br>
+
 <h2>Usage</h2>
 
 To test the gnl function directly you can use one of the 2 versions of main present in the code. Just uncomment one of the 2 main versions to test.
